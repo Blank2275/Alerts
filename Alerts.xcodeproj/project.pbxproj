@@ -13,6 +13,8 @@
 		B36929F52727043700174347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36929F32727043700174347 /* Main.storyboard */; };
 		B36929F72727043800174347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36929F62727043800174347 /* Assets.xcassets */; };
 		B36929FA2727043800174347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36929F82727043800174347 /* LaunchScreen.storyboard */; };
+		B3692A092727101E00174347 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3692A072727101E00174347 /* CustomAlertViewController.swift */; };
+		B3692A0A2727101E00174347 /* CustomAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3692A082727101E00174347 /* CustomAlertViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B36929F62727043800174347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B36929F92727043800174347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B36929FB2727043800174347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3692A072727101E00174347 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		B3692A082727101E00174347 /* CustomAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlertViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B36929EF2727043700174347 /* SceneDelegate.swift */,
 				B36929F12727043700174347 /* ViewController.swift */,
 				B36929F32727043700174347 /* Main.storyboard */,
+				B3692A072727101E00174347 /* CustomAlertViewController.swift */,
+				B3692A082727101E00174347 /* CustomAlertViewController.xib */,
 				B36929F62727043800174347 /* Assets.xcassets */,
 				B36929F82727043800174347 /* LaunchScreen.storyboard */,
 				B36929FB2727043800174347 /* Info.plist */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3692A0A2727101E00174347 /* CustomAlertViewController.xib in Resources */,
 				B36929FA2727043800174347 /* LaunchScreen.storyboard in Resources */,
 				B36929F72727043800174347 /* Assets.xcassets in Resources */,
 				B36929F52727043700174347 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3692A092727101E00174347 /* CustomAlertViewController.swift in Sources */,
 				B36929F22727043700174347 /* ViewController.swift in Sources */,
 				B36929EE2727043700174347 /* AppDelegate.swift in Sources */,
 				B36929F02727043700174347 /* SceneDelegate.swift in Sources */,
